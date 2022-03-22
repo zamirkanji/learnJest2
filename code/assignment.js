@@ -45,27 +45,6 @@ const analyzeArray = (a) => {
 	};
 };
 
-
-// import {capitalize, reverseString, calculator2, analyzeArray} from './code/assignment.js';
-
-// test('takes first letter of string and capitalizes it', () => {
-//     expect(capitalize('hello')).toEqual('Hello');
-// })
-
-// test('takes string and reverse it', () => {
-//     expect(reverseString('hello')).toEqual('olleh');
-// })
-
-// test('calculator object that returns add, subtract, mult, divide functions', () => {
-//     console.log(calculator2);
-//     let calc = calculator2(3, 3);
-//     console.log(calc);
-//     expect(calc.add()).toEqual(6);
-//     expect(calc.sub()).toEqual(0);
-//     expect(calc.mult()).toEqual(9);
-//     expect(calc.divide()).toEqual(1);
-// })
-
 export {
     capitalize, 
     reverseString,
