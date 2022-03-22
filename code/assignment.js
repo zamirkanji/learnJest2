@@ -24,14 +24,13 @@ const calculator = (a, b) => {
 const caesarCipher = (str) => {
 
 }
+
 const analyzeArray = (a) => {
-    console.log(a.length);
 	const lengthOfArr = a.length;
 	const averageOfNums = function () {
         let total = a.reduce((prev, curr) => {
             return prev + curr;
         }, 0);
-        console.log(total);
         let avg = total / lengthOfArr;
         return avg;
     };
